@@ -82,7 +82,7 @@ std::vector<TripSegment> fetchTrips(const Parameters& params) {
         std::cout << "Starting HTTP request...\n";
         std::string requestUrl = "https://api.rasp.yandex.net/v3.0/search/?from=" + params.from + 
                                  "&to=" + params.to +
-                                 "&format=json&lang=ru_RU&apikey=3afc2800-dd08-49b7-b90a-c037f1e1bdc1" +
+                                 "&format=json&lang=ru_RU&apikey=your api key" +
                                  "&date=" + params.date +
                                  "&system=yandex&limit=100&transfers=true";
 
